@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRIO · Bookings</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="logo"><i class="fas fa-crown"></i>TRIO<span>.</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="Blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="Bookings.html" class="btn-outline"><i class="fas fa-calendar-check"></i> Bookings</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="booking-page">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-calendar-check"></i> Book your hospitality experience</h2>
+      <p class="section-sub">Tell us about your event, venue, guest profile and goals. We’ll prepare a tailored proposal for the right hospitality solution.</p>
+
+      <div class="booking-layout">
+        <div class="booking-side">
+          <div class="booking-panel booking-info">
+            <h3>Let’s plan something unforgettable</h3>
+            <p>From intimate private gatherings to major corporate events, our team coordinates every detail with professionalism and care.</p>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Event planning & planning support</li>
+              <li><i class="fas fa-check-circle"></i> Staffing for weddings, conferences & VIP experiences</li>
+              <li><i class="fas fa-check-circle"></i> Catering, guest experience & concierge coordination</li>
+            </ul>
+          </div>
+
+          <div class="booking-panel booking-summary">
+            <h4><i class="fas fa-clock"></i> Response time</h4>
+            <p>We aim to come back to you within 24 hours during working days.</p>
+
+            <h4><i class="fas fa-map-marker-alt"></i> Visit us</h4>
+            <p>Shop MO 137, Hartfield Plaza, Pretoria, South Africa</p>
+          </div>
+        </div>
+
+        <div class="booking-panel booking-form-wrap">
+          <form class="booking-form">
+            <div class="booking-row two-col">
+              <div class="booking-field">
+                <label for="name">Full name</label>
+                <input id="name" type="text" placeholder="Your full name" />
+              </div>
+              <div class="booking-field">
+                <label for="company">Company / Organisation</label>
+                <input id="company" type="text" placeholder="Optional" />
+              </div>
+            </div>
+
+            <div class="booking-row two-col">
+              <div class="booking-field">
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="you@example.com" />
+              </div>
+              <div class="booking-field">
+                <label for="phone">Phone number</label>
+                <input id="phone" type="tel" placeholder="+27 00 000 0000" />
+              </div>
+            </div>
+
+            <div class="booking-row two-col">
+              <div class="booking-field">
+                <label for="event-type">Event type</label>
+                <select id="event-type">
+                  <option selected disabled>Select an option</option>
+                  <option>Wedding</option>
+                  <option>Corporate event</option>
+                  <option>Conference</option>
+                  <option>Private function</option>
+                  <option>VIP / Concierge service</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="booking-field">
+                <label for="guest-count">Number of guests</label>
+                <input id="guest-count" type="number" min="1" placeholder="e.g. 250" />
+              </div>
+            </div>
+
+            <div class="booking-row two-col">
+              <div class="booking-field">
+                <label for="date">Preferred date</label>
+                <input id="date" type="date" />
+              </div>
+              <div class="booking-field">
+                <label for="budget">Estimated budget</label>
+                <select id="budget">
+                  <option selected disabled>Select budget range</option>
+                  <option>Under R20 000</option>
+                  <option>R20 000 – R50 000</option>
+                  <option>R50 000 – R100 000</option>
+                  <option>R100 000 – R250 000</option>
+                  <option>R250 000+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="booking-field">
+              <label for="message">Tell us about your event</label>
+              <textarea id="message" rows="5" placeholder="Share your vision, venue needs, service requirements, and timeline..."></textarea>
+            </div>
+
+            <button type="submit" class="booking-button"><i class="fas fa-paper-plane"></i> Submit booking request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo"><i class="fas fa-crown"></i>TRIO<span>.</span></div>
+          <p style="margin-top:0.5rem;">Hospitality. Elevated. — comprehensive solutions for every guest and occasion.</p>
+          <p style="margin-top:1rem;"><i class="fas fa-envelope"></i> hello@trio.hospitality</p>
+          <p><i class="fas fa-phone-alt"></i> +27 (12) 345 6789</p>
+        </div>
+        <div>
+          <h4 style="color:#f0ebe6;">Services</h4>
+          <p style="color:#b0a89e;">Accommodation · Catering · Events · Concierge · Staffing · Venue · Corporate</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <i class="fas fa-crown" style="color:#b48b6b;"></i> TRIO — Every guest, every moment, exceptional.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
