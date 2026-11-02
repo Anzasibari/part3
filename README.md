@@ -144,4 +144,6 @@ The website is designed to make it easier for potential clients to connect with 
 
 referencing
 https://www.linkedin.com/pulse/why-every-business-leader-should-attend-global-conferences-micecafe-ruv2c
+https://www.facebook.com/ParkHotelMokopane/posts/meet-our-kitchen-team-%EF%B8%8Fthe-creative-hands-behind-the-meals-that-bring-people-tog/1561132869355720/
+https://pink-book.co.za/listing/wedding-planners/cape-town/the-event-planners
 
