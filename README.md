@@ -140,3 +140,8 @@ The main purpose of the TRIO Hospitality website is to create an online presence
 The TRIO Hospitality website provides a professional online platform for presenting the company's services and information. Its six pages help visitors learn about the business, explore its portfolio, read articles and submit booking requests or enquiries.
 
 The website is designed to make it easier for potential clients to connect with TRIO Hospitality.
+
+
+referencing
+https://www.linkedin.com/pulse/why-every-business-leader-should-attend-global-conferences-micecafe-ruv2c
+
